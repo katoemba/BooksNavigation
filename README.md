@@ -5,6 +5,8 @@ small **navigation router**, supporting both **three-column** (sidebar + list +
 detail) and **two-column** (sidebar + full-width detail) layouts from the same
 state.
 
+For this pattern I took inspiration from [NavigationPath routing tutorial](https://tanaschita.com/swiftui-navigationpath/) by Natascha Fadeeva.
+
 It accompanies the blog post *“A NavigationRouter for SwiftUI’s
 NavigationSplitView”*. The app is themed around a tiny offline library of books
 and authors — no networking, no dependencies, all data is in memory.
