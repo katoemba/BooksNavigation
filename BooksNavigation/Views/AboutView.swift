@@ -25,3 +25,9 @@ struct AboutView: View {
         .navigationTitle("About")
     }
 }
+
+#Preview {
+    NavigationStack {
+        AboutView()
+    }
+}

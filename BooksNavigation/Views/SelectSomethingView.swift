@@ -16,3 +16,7 @@ struct SelectSomethingView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
+
+#Preview {
+    SelectSomethingView(label: "Select an Author", systemImage: "person")
+}

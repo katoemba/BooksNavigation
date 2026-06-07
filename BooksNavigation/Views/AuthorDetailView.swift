@@ -38,3 +38,12 @@ struct AuthorDetailView: View {
         .navigationTitle(author.name)
     }
 }
+
+#Preview {
+    let library = Library()
+    NavigationStack {
+        AuthorDetailView(author: library.authors[0])
+    }
+    .environment(library)
+    .environment(NavigationRouter())
+}

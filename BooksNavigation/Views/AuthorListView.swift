@@ -30,3 +30,11 @@ struct AuthorListView: View {
         .navigationTitle("Authors")
     }
 }
+
+#Preview {
+    NavigationStack {
+        AuthorListView()
+    }
+    .environment(Library())
+    .environment(NavigationRouter())
+}

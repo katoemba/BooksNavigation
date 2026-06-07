@@ -27,3 +27,11 @@ struct SelectionRow<Content: View>: View {
         .buttonStyle(.plain)
     }
 }
+
+#Preview {
+    List {
+        SelectionRow(action: {}) {
+            Label("Sample row", systemImage: "book")
+        }
+    }
+}

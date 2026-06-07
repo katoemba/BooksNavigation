@@ -29,3 +29,9 @@ struct SettingsView: View {
         .navigationTitle("Settings")
     }
 }
+
+#Preview {
+    NavigationStack {
+        SettingsView()
+    }
+}

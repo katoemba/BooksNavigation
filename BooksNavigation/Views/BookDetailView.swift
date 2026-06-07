@@ -53,3 +53,12 @@ struct BookDetailView: View {
         .navigationTitle(book.title)
     }
 }
+
+#Preview {
+    let library = Library()
+    NavigationStack {
+        BookDetailView(book: library.books[0])
+    }
+    .environment(library)
+    .environment(NavigationRouter())
+}

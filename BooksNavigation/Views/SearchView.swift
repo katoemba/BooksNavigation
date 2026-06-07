@@ -46,3 +46,11 @@ struct SearchView: View {
         .navigationTitle("Search")
     }
 }
+
+#Preview {
+    NavigationStack {
+        SearchView()
+    }
+    .environment(Library())
+    .environment(NavigationRouter())
+}

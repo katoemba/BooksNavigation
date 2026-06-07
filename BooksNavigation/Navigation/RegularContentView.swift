@@ -57,3 +57,9 @@ struct RegularContentView: View {
         )
     }
 }
+
+#Preview {
+    RegularContentView()
+        .environment(Library())
+        .environment(NavigationRouter())
+}

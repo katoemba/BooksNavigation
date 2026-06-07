@@ -31,3 +31,12 @@ struct ReadingListDetailView: View {
         .navigationTitle(list.name)
     }
 }
+
+#Preview {
+    let library = Library()
+    NavigationStack {
+        ReadingListDetailView(list: library.readingLists[0])
+    }
+    .environment(library)
+    .environment(NavigationRouter())
+}

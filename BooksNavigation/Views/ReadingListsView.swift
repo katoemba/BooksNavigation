@@ -30,3 +30,11 @@ struct ReadingListsView: View {
         .navigationTitle("Reading Lists")
     }
 }
+
+#Preview {
+    NavigationStack {
+        ReadingListsView()
+    }
+    .environment(Library())
+    .environment(NavigationRouter())
+}

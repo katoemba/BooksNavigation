@@ -40,3 +40,11 @@ struct SidebarView: View {
         }
     }
 }
+
+#Preview {
+    NavigationStack {
+        SidebarView()
+    }
+    .environment(Library())
+    .environment(NavigationRouter())
+}
