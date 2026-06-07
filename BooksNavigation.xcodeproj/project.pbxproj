@@ -14,6 +14,10 @@
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
+/* Begin PBXFileReference section */
+		1A0000000000000000000005 /* BooksNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooksNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		1A000000000000000000000A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
